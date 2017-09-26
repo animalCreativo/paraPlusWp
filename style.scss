@@ -1,9 +1,9 @@
-$body-background: orange;
+$body-background: white;
 $body-background404: #15210a;
 $h3-404: white;
 $p-404: white;
-$header-background: white;
-$footer-background: #0E3E71;
+$header-background: #4958BB;
+$footer-background: #4958BB;
 $footer-color: white;
 $card-background: #F7F7F7;
 $card-textcolor: #777777;
@@ -15,9 +15,9 @@ $card-paddingbottom: 10px;
 $card-paddingleft: 20px;
 $btn-textcolor: #2691FB;
 $btn-bordercolor: #2691FB;
-$card2-background: #0E3E71;
-$card2-textcolor: white;
-$card2-titulocolor: #2691FB;
+$card2-background: transparent;
+$card2-textcolor: #767E8B;
+$card2-titulocolor: #4958BB;
 $btn2-textcolor: white;
 $btn2-bordercolor: #2691FB;
 $header-textcolor: #0E3E71;
@@ -124,6 +124,19 @@ div#example-menu {
   font-size: 12px;
 }
 
+li, #video h3{
+  color: $card2-textcolor;
+}
+#video h3{
+  font-size: 18pt;
+}
+
+
+#video h5 {
+  color: $card2-titulocolor;
+  font-size: 27pt;
+  font-weight: bold;
+}
 .footermenu p {
  font-size: 10px;
  margin-bottom: 0px;

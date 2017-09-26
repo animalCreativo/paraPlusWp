@@ -1,23 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
-    <title>Page 1</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <polygon id="path-1" points="46.7357408 47 0.000163920712 47 0.000163920712 0.265053521 46.7357408 0.265053521"></polygon>
-    </defs>
-    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Umbrella---Home" transform="translate(-206.000000, -2032.000000)">
-            <g id="Page-1" transform="translate(206.000000, 2032.000000)">
-                <g id="Group-3">
-                    <mask id="mask-2" fill="white">
-                        <use xlink:href="#path-1"></use>
-                    </mask>
-                    <g id="Clip-2"></g>
-                    <path d="M23.3681352,2.91294085 C17.7777831,2.91294085 12.5415859,5.08156056 8.62536056,9.01963099 C4.74090986,12.9252648 2.6179662,18.1118141 2.6484169,23.6253775 C2.6484169,35.057631 11.9431634,44.3523775 23.3681352,44.3523775 C34.793107,44.3523775 44.0878535,35.057631 44.0878535,23.6326592 C44.0878535,12.2076873 34.793107,2.91294085 23.3681352,2.91294085 M23.3681352,47.0002648 C10.4828535,47.0002648 0.000529577465,36.5172789 0.000529577465,23.6326592 C-0.0338929577,17.4167437 2.36310704,11.5609408 6.74800845,7.15220845 C11.1646845,2.71103944 17.0674873,0.265053521 23.3681352,0.265053521 C36.2527549,0.265053521 46.7357408,10.7473775 46.7357408,23.6326592 C46.7357408,36.5172789 36.2527549,47.0002648 23.3681352,47.0002648" id="Fill-1" fill="#3893FF" mask="url(#mask-2)"></path>
-                </g>
-                <path d="M19.8886807,19.3046361 L17.3695652,19.3046361 L17.3695652,23.5325222 L19.8886807,23.5325222 L19.8886807,35.7608696 L24.7977261,35.7608696 L24.7977261,23.4024334 L28.2211394,23.4024334 L28.6086957,19.3046361 L24.7977261,19.3046361 L24.7977261,17.0280821 C24.7977261,15.9873717 25.056097,15.5971053 25.9603948,15.5971053 L28.6086957,15.5971053 L28.6086957,11.2391304 L25.1852824,11.2391304 C21.5034983,11.2391304 19.8886807,12.8652405 19.8886807,15.9873717 C19.8886807,18.7192365 19.8886807,19.3046361 19.8886807,19.3046361" id="Fill-4" fill="#3893FF"></path>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-1000 745 47 47" enable-background="new -1000 745 47 47" xml:space="preserve">
+<title>Page 1</title>
+<desc>Created with Sketch.</desc>
+<g id="Home">
+	<g id="Umbrella---Home" transform="translate(-206.000000, -2032.000000)">
+		<g id="Page-1" transform="translate(206.000000, 2032.000000)">
+			<g id="Group-3">
+				<g id="Clip-2">
+				</g>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-1000" y="745.3" width="46.7" height="46.7">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="-1000" y="745.3" width="46.7" height="46.7" id="mask-2">
+					<g filter="url(#Adobe_OpacityMaskFilter)">
+						<polygon id="path-1" fill="#FFFFFF" points="-953.3,792 -1000,792 -1000,745.3 -953.3,745.3 						"/>
+					</g>
+				</mask>
+				<path id="Fill-1" mask="url(#mask-2)" fill="#FFFFFF" d="M-976.6,747.9c-5.6,0-10.8,2.2-14.7,6.1c-3.9,3.9-6,9.1-6,14.6
+					c0,11.4,9.3,20.7,20.7,20.7c11.4,0,20.7-9.3,20.7-20.7C-955.9,757.2-965.2,747.9-976.6,747.9 M-976.6,792
+					c-12.9,0-23.4-10.5-23.4-23.4c0-6.2,2.4-12.1,6.7-16.5c4.4-4.4,10.3-6.9,16.6-6.9c12.9,0,23.4,10.5,23.4,23.4
+					C-953.3,781.5-963.7,792-976.6,792"/>
+			</g>
+			<path id="Fill-4" fill="#FFFFFF" d="M-980.1,764.3h-2.5v4.2h2.5v12.2h4.9v-12.4h3.4l0.4-4.1h-3.8V762c0-1,0.3-1.4,1.2-1.4h2.6
+				v-4.4h-3.4c-3.7,0-5.3,1.6-5.3,4.7C-980.1,763.7-980.1,764.3-980.1,764.3"/>
+		</g>
+	</g>
+</g>
 </svg>

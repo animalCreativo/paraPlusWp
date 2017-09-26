@@ -1,8 +1,8 @@
 body {
-  background: orange; }
+  background: white; }
 
 header {
-  background: white;
+  background: #4958BB;
   height: 120px;
   width: auto;
   padding-top: 20px; }
@@ -19,14 +19,14 @@ li#rata {
 
 div#example-menu {
   height: 100%;
-  background: white; }
+  background: #4958BB; }
 
 div#example-menu {
   padding: 0px;
   position-top: -16px; }
 
 .top-bar, .top-bar ul {
-  background: white; }
+  background: #4958BB; }
 
 .top-bar .menu > li:not(.menu-text) > a {
   padding: 1rem;
@@ -59,11 +59,11 @@ div#example-menu {
   background: transparent; }
 
 .footer, .footer-container {
-  background: #0E3E71;
+  background: #4958BB;
   padding: 10px; }
 
 .row.footer-container {
-  background: #0E3E71; }
+  background: #4958BB; }
 
 .footerSocial {
   padding-top: 20px; }
@@ -73,6 +73,17 @@ div#example-menu {
 
 .footermenu a, .footerSocial p {
   font-size: 12px; }
+
+li, #video h3 {
+  color: #767E8B; }
+
+#video h3 {
+  font-size: 18pt; }
+
+#video h5 {
+  color: #4958BB;
+  font-size: 27pt;
+  font-weight: bold; }
 
 .footermenu p {
   font-size: 10px;
@@ -134,16 +145,16 @@ button.hollow.button {
   padding: 0px; }
 
 .card2-section {
-  background: #0E3E71; }
+  background: transparent; }
 
 .header-container {
-  background: white; }
+  background: #4958BB; }
 
 .card2-section p {
-  color: white; }
+  color: #767E8B; }
 
 .card2-section h5 {
-  color: #2691FB;
+  color: #4958BB;
   text-transform: uppercase; }
 
 button.hollow.button.button2 {
