@@ -20,7 +20,7 @@ $card2-textcolor: #767E8B;
 $card2-titulocolor: #4958BB;
 $btn2-textcolor: white;
 $btn2-bordercolor: #2691FB;
-$header-textcolor: #0E3E71;
+$header-textcolor: white;
 
 $toplogopadding-left: 20px;
 $toplogopadding-top: 20px;
@@ -293,6 +293,11 @@ ul.menu.headermenu {
   #menuFooterMobile {
     padding: 0px;
   }
+
+   #videoFrame {
+    width: 320px;
+    height: 180px;
+  }
 }
 
 
@@ -302,6 +307,11 @@ ul.menu.headermenu {
    #imgHeader img {
     width: 150px;
     padding-top: 10px;
+  }
+
+  #logo {
+    height: 80px;
+    width: auto;
   }
 
 }
@@ -316,6 +326,7 @@ ul.menu.headermenu {
   #imgOrbit{
     content: src()
   }
+
 }
 
 /* Large and up */

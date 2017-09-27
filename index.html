@@ -39,19 +39,30 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-    <div data-sticky-container>
+      <div data-sticky-container>
       <div class="top-bar headermenu" data-sticky data-options="marginTop: 0" id="example-menu">
-        <div class="top-bar-left" style="padding-left: 80px;">
-          <ul class="menu">
-             <img src="assets/logoParaPlus.svg" style="height: 100px; width: 235px;">
-          </ul>
-        </div>
-        <div class="top-bar-right">
-          <ul class="menu" data-magellan>
-            <li><a href="#first">One</a></li>
-            <li><a href="#second">Two</a></li>
-            <li><a href="#third">Three</a></li>
-          </ul>
+        <div class="row">
+          <div class="columns small-5 large-3 ">
+            <ul class="menu">
+               <img  id="logo" width="auto" height="auto" src="assets/logoParaPlus.png">
+            </ul>
+          </div>
+          <div class="columns small-12 medium-8 show-for-medium ">
+            <ul class="menu" data-magellan id="menuListHeader">
+              <li><a href="#first" >¿Cómo <br>funciona?</a></li>
+              <li><a href="#second">Modo <br>de uso</a></li>
+              <li><a href="#third" >Mitios acerca <br>de los piojos</a></li>
+              <li><a href="#fourth" >Beneficios</a></li>
+            </ul>
+          </div>
+          <div class="columns small-12 medium-10 show-for-small-only" >
+            <ul class="menu" data-magellan id="menuListHeader">
+              <li><a href="#first" style="text-align: left;">¿Cómo<br>funciona?</a></li>
+              <li><a href="#second" style="text-align: left;">Modo<br>de<br>uso</a></li>
+              <li><a href="#third" style="text-align: left;">Mitos acerca<br>de los piojos</a></li>
+              <li><a href="#fourth" style="text-align: left;">Beneficios</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -125,7 +136,7 @@
         <h3>Conóce los mitos y verdades de esos pequeños invasores</h3>
         <div class="responsive-embed">
           <div class="columns small-12 text-center" >
-            <iframe width="420" height="315" src="https://www.youtube.com/embed/WUgvvPRH7Oc?feature=oembed" frameborder="0" allowfullscreen></iframe>
+            <iframe id="videoFrame" width="420" height="315" src="https://www.youtube.com/embed/WUgvvPRH7Oc?feature=oembed" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </div>    
@@ -191,17 +202,20 @@
                     <nav class="menu-footer-container">
                         <ul id="menu-footer" class="menu footermenu">
                             <li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175">
-                                <a href="#">Quienes somos</a>
+                                <a href="#">¿Cómo? Funciona</a>
                             </li>
                             <li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
-                                <a href="#">Contacto</a>
+                                <a href="#">Modo de Uso</a>
                             </li>
                             <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                                <a href="#">pagina final</a>
+                                <a href="#">Mitos Acerca de los piojos</a>
                             </li>
+                             <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
+                                <a href="#">Beneficios</a>
+                            </li>
+
                         </ul>
                     </nav>
-                    <hr size="8px" color="white">
                 </div>  
                 <div class="row">
                     <div class="columns small-9 footermenu">

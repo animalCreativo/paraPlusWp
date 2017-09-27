@@ -30,7 +30,7 @@ div#example-menu {
 
 .top-bar .menu > li:not(.menu-text) > a {
   padding: 1rem;
-  color: #0E3E71;
+  color: white;
   font-weight: normal; }
 
 .top-bar .menu li:not(:last-child) {
@@ -45,7 +45,7 @@ div#example-menu {
   padding-right: 40px; }
 
 .headermenu a, .headermenu p {
-  color: #0E3E71;
+  color: white;
   font-weight: bold; }
 
 div#example-menu {
@@ -111,7 +111,7 @@ a::after {
   padding-top: 0px; }
 
 .headermenu a, .headermenu p {
-  color: #0E3E71;
+  color: white;
   font-weight: bold; }
 
 .card-section {
@@ -211,7 +211,11 @@ ul.menu.headermenu {
 @media screen and (min-width: 40em) {
   #imgHeader img {
     width: 150px;
-    padding-top: 10px; } }
+    padding-top: 10px; }
+
+  #logo {
+    height: 80px;
+    width: auto; } }
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   #menuListHeader a {
