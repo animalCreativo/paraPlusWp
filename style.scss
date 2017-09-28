@@ -34,6 +34,7 @@ $orbit-bulletcoloractive: #3893FF;
 
 body {
   background: $body-background;
+  font-family: 'Open Sans', sans-serif;
 }
 header{
   background: $header-background;
@@ -128,14 +129,17 @@ li, #video h3{
   color: $card2-textcolor;
 }
 #video h3{
-  font-size: 18pt;
+ font-family:   Open+Sans;
+font-size: 24px;
+font-weight: 400;
 }
 
 
 #video h5 {
   color: $card2-titulocolor;
-  font-size: 27pt;
-  font-weight: bold;
+  font-family:   Open+Sans;
+font-size: 36px;
+font-weight: 800;
 }
 .footermenu p {
  font-size: 10px;
@@ -217,12 +221,39 @@ button.hollow.button {
 }
 .card2-section p {
   color: $card2-textcolor;
+  font-family:  Open+Sans;
+  font-weight: 400; 
+  font-size: 16px ;
+}
+h5 {
+  line-height: 1.2;
+}
+p {
+  line-height: 1.8;
 }
 
 .card2-section h5 {
   color: $card2-titulocolor;
-  text-transform: uppercase;
+  font-family:  Open+Sans;
+  font-weight: 800; 
+  font-size: 36px;
 }
+#lista1{
+  color: $card2-textcolor;
+  font-family:  Open+Sans;
+  font-weight: 400; 
+  font-size: 16px;
+}
+#lista1 li {
+padding-bottom: 20px; 
+}
+#lista2{
+  color: $card2-textcolor;
+  font-family:  Open+Sans;
+  font-weight: 700; 
+  font-size: 24px;
+}
+
 button.hollow.button.button2 {
   color:$btn2-textcolor;
   border-color: $btn2-bordercolor; 
@@ -232,7 +263,11 @@ button.hollow.button.button2 {
   text-align: right;
    margin-top: 20px;
   }
-
+#menuListHeader  a {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
 ul.menu.headermenu {
     margin-top: 15px;
 }
@@ -262,8 +297,35 @@ ul.menu.headermenu {
   background: $body-background404;
 }
 
+#fillete {
+    width: auto;
+    min-height: 500px;
+    background: transparent;
+    position:relative;
+}
+#fillete:before {
+    content:" ";
+    background: #72D571;
+    display: block;
+    width: 100%;
+    height: 150px;
+    border-radius:  100% 100% 0 0;
+    position:absolute;
+    bottom:0px;
+    z-index:-5;
 
+}
 
+ #productoGarden{
+    padding-top:60px;
+  }
+
+ul.check {
+list-style-image: url('assets/check.svg');
+height: 54px;
+padding-left: 44px;
+padding-top: 3px;
+}
 //Medias Queris
 
 /* Small only */
@@ -297,6 +359,16 @@ ul.menu.headermenu {
    #videoFrame {
     width: 320px;
     height: 180px;
+  }
+  #productoGarden{
+    margin-top: 200px;
+    padding-top: 0px;
+    width: 300px;
+    height: auto;
+    align-self: center;
+  }
+  #fillete {
+  min-height: 500px;
   }
 }
 
