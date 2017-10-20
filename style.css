@@ -1,6 +1,8 @@
 body {
   background: white;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400; }
 
 header {
   background: #4958BB;
@@ -32,7 +34,8 @@ div#example-menu {
 .top-bar .menu > li:not(.menu-text) > a {
   padding: 1rem;
   color: white;
-  font-weight: normal; }
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; }
 
 .top-bar .menu li:not(:last-child) {
   border-right: 0px solid #4e4e4e; }
@@ -47,7 +50,8 @@ div#example-menu {
 
 .headermenu a, .headermenu p {
   color: white;
-  font-weight: bold; }
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; }
 
 div#example-menu {
   height: 120px; }
@@ -79,13 +83,13 @@ li, #video h3 {
   color: #767E8B; }
 
 #video h3 {
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: 400; }
 
 #video h5 {
   color: #4958BB;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 36px;
   font-weight: 800; }
 
@@ -116,7 +120,8 @@ a::after {
 
 .headermenu a, .headermenu p {
   color: white;
-  font-weight: bold; }
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; }
 
 .card-section {
   background: #F7F7F7;
@@ -156,7 +161,7 @@ button.hollow.button {
 
 .card2-section p {
   color: #767E8B;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px; }
 
@@ -168,13 +173,13 @@ p {
 
 .card2-section h5 {
   color: #4958BB;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   font-size: 36px; }
 
 #lista1 {
   color: #767E8B;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px; }
 
@@ -183,7 +188,7 @@ p {
 
 #lista2 {
   color: #767E8B;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 24px; }
 
@@ -197,8 +202,9 @@ button.hollow.button.button2 {
 
 #menuListHeader a {
   text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
-  font-weight: bold; }
+  font-weight: 700; }
 
 ul.menu.headermenu {
   margin-top: 15px; }
@@ -208,14 +214,15 @@ ul.menu.headermenu {
 
 #error-404Title p {
   color: white;
+  font-family: 'Open Sans', sans-serif;
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase; }
 
 #error-404 p {
   color: white;
   font-size: 24px;
-  font-weight: lighter; }
+  font-weight: 400; }
 
 .img-circle {
   border-radius: 50%; }
@@ -281,7 +288,42 @@ ul.check {
     align-self: center; }
 
   #fillete {
-    min-height: 500px; } }
+    min-height: 500px; }
+
+  #menuFooterMobile {
+    padding: 0px; }
+
+  #videoFrame {
+    width: 320px;
+    height: 180px; }
+
+  .top-bar.headermenu.sticky {
+    height: auto; }
+
+  #menuFooterMobile {
+    padding: 0px; }
+
+  .headermenu {
+    width: 100%;
+    min-height: 80px;
+    padding-top: 0px; }
+
+  #rowMobile {
+    margin-right: 0px;
+    margin-left: 0px; }
+
+  div#rowMobile {
+    width: 100%;
+    height: 100%; }
+
+  .title-bar {
+    width: 100%; }
+
+  div#example-menu {
+    border: 0px; }
+
+  .small-12.medium-6.columns.card2.align-self-middle {
+    padding-bottom: 20px; } }
 /* Medium and up */
 @media screen and (min-width: 40em) {
   #imgHeader img {
@@ -297,8 +339,18 @@ ul.check {
     font-size: 12px; }
 
   #imgOrbit {
-    content: src(); } }
+    content: src(); }
+
+  #logoParaPlusHeader {
+    height: 65px; }
+
+  ul#menuListHeader {
+    margin: 0px; } }
 /* Large and up */
+@media screen and (min-width: 64em) {
+  #logoParaPlusHeader {
+    max-width: 250px;
+    height: auto; } }
 /* Large only */
 
 /*# sourceMappingURL=style.css.map */
