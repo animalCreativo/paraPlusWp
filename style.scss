@@ -250,7 +250,8 @@ p {
   font-size: 16px;
 }
 #lista1 li {
-padding-bottom: 20px; 
+  padding-bottom: 20px; 
+
 }
 #lista2{
   color: $card2-textcolor;
@@ -335,6 +336,8 @@ padding-top: 3px;
 }
 //Medias Queris
 
+
+
 /* Small only */
 @media screen and (max-width: 350px) {
 
@@ -370,7 +373,7 @@ padding-top: 3px;
   #productoGarden{
     margin-top: 200px;
     padding-top: 0px;
-    width: 300px;
+    width: auto;
     height: auto;
     align-self: center;
   }
@@ -416,7 +419,19 @@ padding-top: 3px;
   .small-12.medium-6.columns.card2.align-self-middle {
       padding-bottom: 20px;
   }
+
+  img#productoGarden {
+    margin-top: 135px;
+  }
+  .card2-section h5 {
+    font-size: 28px;
+  }
+
+   .card2-section li {
+    font-size: 16px;
+  }
 }
+
 
 
 /* Medium and up */
@@ -452,8 +467,30 @@ padding-top: 3px;
 
   ul#menuListHeader {
     margin: 0px;
+  }
+
+  iframe#videoFrame {
+    width: 480px;
+    height: 270px;
+  }
+
+
 }
 
+
+@media screen and (min-width: 40em) and (max-width: 900px) {
+
+
+  .card2-section h5 {
+    font-size: 28px;
+  }
+
+   .card2-section li {
+    font-size: 18px;
+  }
+  #productoGarden {
+    padding-top: 170px;
+  }
 
 }
 
