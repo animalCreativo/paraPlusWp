@@ -11,31 +11,31 @@
       gtag('config', 'UA-107004784-1');
     </script>
  -->    
-    <link rel="apple-touch-icon" sizes="57x57" href="icons/icon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="icons/icon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="icons/icon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="icons/icon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="icons/icon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="icons/icon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="icons/icon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="icons/icon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/icon/apple-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-180x180.png">
     <link rel="icon" type="image/png" sizes="192x192"  href="icons/icon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="icons/icon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/icon/favicon-16x16.png">
-    <link rel="manifest" href="icons/icon/manifest.json">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/favicon-16x16.png">
+    <link rel="manifest" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="icons/icon/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="<?php bloginfo('stylesheet_directory')?>/icons/icon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <title>ParaPlus</title>
-    <link rel="stylesheet" href="css/foundation-flex.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="icons/foundation-icons.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/css/foundation-flex.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/icons/foundation-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
 </head>
 <body>
@@ -45,7 +45,7 @@
           <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium" style="background:transparent;">
             <div class="columns small-8 large-3 ">
                 <ul class="menu">
-                   <img src="assets/logoParaPlus.svg">
+                   <img src="<?php bloginfo('stylesheet_directory')?>/assets/logoParaPlus.svg">
                 </ul>
             </div>
             <div>
@@ -78,9 +78,9 @@
      <div data-sticky-container class="show-for-medium" style="min-height:  120px;">
       <div class="top-bar headermenu" data-sticky data-options="marginTop: 0" id="example-menu">
         <div class="row">
-          <div class="columns small-5  large-3 show-for-medium"" style="width: 250px;">
+          <div class="columns small-5  large-3 show-for-medium" style="width: 250px;">
             <ul class="menu">
-               <img id="logoParaPlusHeader" src="assets/logoParaPlus.svg" style="max-width: 220px">
+               <img id="logoParaPlusHeader" src="<?php bloginfo('stylesheet_directory')?>/assets/logoParaPlus.svg" style="max-width: 220px">
             </ul>
           </div>
           <div class="columns small-12 medium-9 show-for-medium" >
@@ -97,7 +97,7 @@
     </div>
 
     <div>
-       <img class="imgOrbit" style="width: 100%; height:auto;" data-interchange="[assets/Slider1Mobile@2x.jpg, small], [assets/Slider1Tablet.jpg, medium], [assets/Slider1Desktop.jpg, large], [assets/Slider1DesktopHD.jpg, xlarge]">  
+       <img class="imgOrbit" style="width: 100%; height:auto;" data-interchange="[<?php bloginfo('stylesheet_directory')?>/assets/Slider1Mobile@2x.jpg, small], [<?php bloginfo('stylesheet_directory')?>/assets/Slider1Tablet.jpg, medium], [<?php bloginfo('stylesheet_directory')?>/assets/Slider1Desktop.jpg, large], [<?php bloginfo('stylesheet_directory')?>/assets/Slider1DesktopHD.jpg, xlarge]">  
     </div> 
 
 
@@ -107,14 +107,16 @@
             <div class="row container">       
                 <div class="small-12 medium-6 columns card2">
                     <picture>
-                        <img width="601" height="434" src="assets/producto1.png" class="attachment-full size-full wp-post-image" alt="" />    
+                        <img width="601" height="434" src="<?php bloginfo('stylesheet_directory')?>/assets/producto1.png" class="attachment-full size-full wp-post-image" alt="" />    
                     </picture>
                 </div>
                 <div class="small-12 medium-6 columns  card2-section align-self-middle">
                    <h5 style="margin-bottom: 0px;">¡De Cabeza</h5>
                    <h5 style="margin-bottom: 0px;">Contra los piojos!</h5>
                 
-                    <p style="padding-top: 20px;">PARA® Plus es una loción acondicionadora eficaz en el tratamiento de piojos y liendres, cubriéndolos por mecanismos físicos (Dimeticona + Ciclometicona) y provocando su muerte por asfixia y facilitando la eliminación por arrastre.</p>
+                    <p style="padding-top: 20px;">Debido a sus propiedades suavizantes y lubricantes, PARA® Plus ayuda a la higiene del cabello, evitando la adherencia de Piojos y Liendres en el cuero cabelludo, facilitando así su eliminación por arrastre. <br><br>
+
+                    PARA® Plus actúa por un mecanismo físico: la Dimeticona + Ciclometicona forman una película que recubre el piojo y la liendre provocando la muerte por asfixia. Con PARA® Plus no se produce resistencia.</p>
           
                 </div>
             </div>
@@ -127,19 +129,19 @@
                 <div class="small-12 medium-6 columns  card2-section align-self-middle">
                   <h5 class="text-center">Modo de uso</h5>
                 <ol id="lista1"     style="padding-top: 20px;">
-                  <li style="list-style-image: url('assets/1.svg');">Aplicar sobre el cabello seco, desde la raíz del cuero cabelludo a las puntas, con suaves masajes.</li>
-                  <li style="list-style-image: url('assets/2.svg');">Poner especial atención detrás de las orejas y cuello.</li>
+                  <li style="list-style-image: url('<?php bloginfo('stylesheet_directory')?>/assets/1.svg');">Aplicar sobre el cabello seco, desde la raíz del cuero cabelludo a las puntas, con suaves masajes.</li>
+                  <li style="list-style-image: url('<?php bloginfo('stylesheet_directory')?>/assets/2.svg');">Poner especial atención detrás de las orejas y cuello.</li>
                   <li style="list-style-image: url('assets/3.svg');">Una vez terminada la aplicación, esperar 10 minutos previo a la utilización del peine de arrastre.</li>
-                  <li style="list-style-image: url('assets/4.svg');">Pasar el peine desde la raíz hasta las puntas.</li>
-                  <li style="list-style-image: url('assets/5.svg');">Luego de utilizar el peine de arrastre, lavar el pelo con champú suave y agua tibia.</li>
-                  <li style="list-style-image: url('assets/6.svg');">Revisar el cabello y cuero cabelludo diariamente.</li>
-                  <li style="list-style-image: url('assets/7.svg');">Repetir la aplicación a los 7 días.</li>
+                  <li style="list-style-image: url('<?php bloginfo('stylesheet_directory')?>/assets/4.svg');">Pasar el peine desde la raíz hasta las puntas.</li>
+                  <li style="list-style-image: url('<?php bloginfo('stylesheet_directory')?>/assets/5.svg');">Luego de utilizar el peine de arrastre, lavar el pelo con champú suave y agua tibia.</li>
+                  <li style="list-style-image: url('<?php bloginfo('stylesheet_directory')?>/assets/6.svg');">Revisar el cabello y cuero cabelludo diariamente.</li>
+                  <li style="list-style-image: url('<?php bloginfo('stylesheet_directory')?>/assets/7.svg');">Repetir la aplicación a los 7 días.</li>
                 </ol>
                 
                 </div>
                  <div class="small-12 medium-6 columns card2">
                    <picture>
-                        <img width="601" height="434" src="assets/producto2.png" class="attachment-full size-full wp-post-image" alt=""  />    
+                        <img width="601" height="434" src="<?php bloginfo('stylesheet_directory')?>/assets/producto2.png" class="attachment-full size-full wp-post-image" alt=""  />    
                     </picture>
                 </div>          
           </div>
@@ -154,7 +156,7 @@
             <div class="columns small-12">
               <div class="responsive-embed">
                   <div class="columns small-12 text-center" >
-                      <iframe id ="videoFrame" width="960" height="540" src="assets/video.mp4" frameborder="0" allowfullscreen></iframe>
+                      <iframe id ="videoFrame" width="960" height="540" src="<?php bloginfo('stylesheet_directory')?>/assets/video.mp4" frameborder="0" allowfullscreen></iframe>
                   </div>
               </div> 
             </div>
@@ -189,7 +191,7 @@
                      
                   <div class="small-12 medium-6  columns card2 align-self-bottom ">
                      <picture>
-                          <img width="601" height="434" src="assets/producto3.png" class="attachment-full size-full wp-post-image" alt=""  id="productoGarden"/>    
+                          <img width="601" height="434" src="<?php bloginfo('stylesheet_directory')?>/assets/producto3.png" class="attachment-full size-full wp-post-image" alt=""  id="productoGarden"/>    
                       </picture>
                   </div> 
                   <div class="small-12 medium-6 columns  card2-section align-self-top show-for-medium">
@@ -212,25 +214,17 @@
       </section>
     </div>
 
-    
-    
-
-    
-    
-
-  
-
 
     <div class="footer-container show-for-medium" >
         <footer class="footer row align-justify">
             <div class="small-3 column hide-for-small-only">
                 <div class="row">
-                    <img src="assets/logo2ParaPlus.svg" class="attachment-full size-full wp-post-image" alt="">          
+                    <img src="<?php bloginfo('stylesheet_directory')?>/assets/logo2ParaPlus.svg" class="attachment-full size-full wp-post-image" alt="">          
                 </div>
                 <div class="row footerSocial">
                     <div class="small-12 medium-4 columns align-self-middle"">
                         <a href="https://www.facebook.com/ParaPlusCL/"> 
-                            <img src="assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com" style="padding-bottom: 20px;"></a>
+                            <img src="<?php bloginfo('stylesheet_directory')?>/assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com" style="padding-bottom: 20px;"></a>
                     </div>
                     <div class="small-12 medium-8 columns align-self-middle text-align-center">
                         <p>Síguenos en Facebook</p>
@@ -267,7 +261,7 @@
                         <p> Teléfono:(2) 2340 5800 </p>
                     </div>
                     <div class="columns small-3">
-                      <img src="assets/pharmaLogo.svg" class="attachment-full size-full wp-post-image" alt="">
+                      <img src="<?php bloginfo('stylesheet_directory')?>/assets/pharmaLogo.svg" class="attachment-full size-full wp-post-image" alt="">
                       </div>
                   </div>
                 </div>
@@ -277,7 +271,7 @@
     <div class="footer-container show-for-small-only">
         <footer class="footer row align-justify">
             <div class="columns small-12 show-for-small-only">
-                <img src="assets/logo2ParaPlus.svg" class="attachment-full size-full wp-post-image" alt="">
+                <img src="<?php bloginfo('stylesheet_directory')?>/assets/logo2ParaPlus.svg" class="attachment-full size-full wp-post-image" alt="">
             </div>
             <div class="columns small-12 show-for-small-only" id="menuFooterMobile">
                 <ul id="menu-footer-1" class="menu footermenu vertical menu">
@@ -311,23 +305,23 @@
                         <div class="row">
                             <div class="small-12  columns" id="imgFacebookMobile">
                             <a href="https://www.facebook.com/ParaPlusCL/"> 
-                                <img src="assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com">   
+                                <img src="<?php bloginfo('stylesheet_directory')?>/assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com">   
                              </a>
                         </div>
                     </div>
                 </div>
                 <div class="columns small-6 footermenu" id="imgLogoFooter2Mobile">
-                      <img src="assets/pharmaLogo.svg" class="attachment-full size-full wp-post-image" alt=""> 
+                      <img src="<?php bloginfo('stylesheet_directory')?>/assets/pharmaLogo.svg" class="attachment-full size-full wp-post-image" alt=""> 
                 </div>     
             </div>
         </footer>
     </div>
  
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/vendor/foundation.interchange.js"></script>
-    <script src="js/app.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/jquery.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/what-input.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/foundation.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/foundation.interchange.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory')?>/js/app.js"></script>
   
 
 </body>
