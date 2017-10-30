@@ -131,7 +131,7 @@
                 <ol id="lista1"     style="padding-top: 20px;">
                   <li style="list-style-image: url('<?php bloginfo('stylesheet_directory')?>/assets/1.svg');">Aplicar sobre el cabello seco, desde la raíz del cuero cabelludo a las puntas, con suaves masajes.</li>
                   <li style="list-style-image: url('<?php bloginfo('stylesheet_directory')?>/assets/2.svg');">Poner especial atención detrás de las orejas y cuello.</li>
-                  <li style="list-style-image: url('assets/3.svg');">Una vez terminada la aplicación, esperar 10 minutos previo a la utilización del peine de arrastre.</li>
+                  <li style="list-style-image: url('<?php bloginfo('stylesheet_directory')?>assets/3.svg');">Una vez terminada la aplicación, esperar 10 minutos previo a la utilización del peine de arrastre.</li>
                   <li style="list-style-image: url('<?php bloginfo('stylesheet_directory')?>/assets/4.svg');">Pasar el peine desde la raíz hasta las puntas.</li>
                   <li style="list-style-image: url('<?php bloginfo('stylesheet_directory')?>/assets/5.svg');">Luego de utilizar el peine de arrastre, lavar el pelo con champú suave y agua tibia.</li>
                   <li style="list-style-image: url('<?php bloginfo('stylesheet_directory')?>/assets/6.svg');">Revisar el cabello y cuero cabelludo diariamente.</li>
