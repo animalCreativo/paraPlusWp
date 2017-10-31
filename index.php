@@ -20,7 +20,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="icons/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="<?php bloginfo('stylesheet_directory')?>/icons/icon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/favicon-16x16.png">
@@ -153,9 +153,9 @@
             <h5 style="padding-top: 40px;">¿Verdadero o Falso?</h5>
             <h3>Conoce los mitos y verdades de esos pequeños invasores</h3>
            
-            <div class="columns small-12">
+            <div id ="columnaVideo" class="columns small-12">
               <div class="responsive-embed">
-                  <div class="columns small-12 text-center" >
+                  <div id ="columnaVideo" class="columns small-12 text-center" >
                       <iframe id ="videoFrame" width="960" height="540" src="<?php bloginfo('stylesheet_directory')?>/assets/video.mp4" frameborder="0" allowfullscreen></iframe>
                   </div>
               </div> 
@@ -236,16 +236,16 @@
                     <nav class="menu-footer-container">
                         <ul id="menu-footer" class="menu footermenu">
                             <li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175">
-                                <a href="#">¿Cómo Funciona?</a>
+                                <a href="#first">¿Cómo Funciona?</a>
                             </li>
                             <li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
-                                <a href="#">Modo de Uso</a>
+                                <a href="#second">Modo de Uso</a>
                             </li>
                             <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                                <a href="#">Mitos Acerca de los piojos</a>
+                                <a href="#third">Mitos Acerca de los piojos</a>
                             </li>
                             <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                                <a href="#">Beneficios</a>
+                                <a href="#fourth">Beneficios</a>
                             </li>
                             <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
                                 <a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a>
@@ -276,16 +276,16 @@
             <div class="columns small-12 show-for-small-only" id="menuFooterMobile">
                 <ul id="menu-footer-1" class="menu footermenu vertical menu">
                       <li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175">
-                          <a href="#">¿Cómo Funciona?</a>
+                          <a href="#first">¿Cómo Funciona?</a>
                       </li>
                       <li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
-                          <a href="#">Modo de Uso</a>
+                          <a href="#second">Modo de Uso</a>
                       </li>
                       <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                          <a href="#">Mitos Acerca de los piojos</a>
+                          <a href="#third">Mitos Acerca de los piojos</a>
                       </li>
                        <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                          <a href="#">Beneficios</a>
+                          <a href="#fourth">Beneficios</a>
                       </li>
                       <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
                           <a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a>
