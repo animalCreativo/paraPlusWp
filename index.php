@@ -32,7 +32,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-    <title>ParaPlus</title>
+    <meta name="description" content="ParaPlus - Loción Acondicionadora para combatir Piojos y Liendres. Producto no tóxico, libre de pesticidas, efectivo en la prevención y eliminación de Piojos y Liendres.">
+    <meta name="keywords" content="Pediculosis, shampoo para piojos y liendres, prevenir y combatir piojos, tratamiento piojos, como eliminar piojos, niños con piojos.">
+    <title>ParaPlus, Tratamiento para combatir Piojos y Liendres</title>
+
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/css/foundation-flex.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/style.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/icons/foundation-icons.css">
@@ -68,7 +71,7 @@
                   <li><a class= "clickMenu" href="#fourth" >Beneficios</a></li>
               </ul>
               <ul class=" dropdown menu" data-magellan data-dropdown-menu id="menuListHeader">
-                  <li><a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a></li>
+                  <li><a href="mailto:jsamur@pharmainvesti.cl">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -89,7 +92,7 @@
                 <li><a href="#second">Modo de uso</a></li>
                 <li><a href="#third" >Mito acerca de los piojos</a></li>
                 <li><a href="#fourth" >Beneficios</a></li>
-                <li><a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a></li>
+                <li><a href="mailto:jsamur@pharmainvesti.cl">Contacto</a></li>
             </ul>
           </div>
         </div>
@@ -181,6 +184,7 @@
                       <li>No tiñe</li>
                       <li>Previene reinfestación</li>
                     </ul>
+                   
             </div> 
           </div>   
 
@@ -194,16 +198,22 @@
                           <img width="601" height="434" src="<?php bloginfo('stylesheet_directory')?>/assets/producto3.png" class="attachment-full size-full wp-post-image" alt=""  id="productoGarden"/>    
                       </picture>
                   </div> 
-                  <div class="small-12 medium-6 columns  card2-section align-self-top show-for-medium">
+                  <div class="small-12 medium-6 columns  card2-section align-self-top show-for-medium" style="margin-top: -80px; ">
                     <h5 style="margin-bottom: 0px; color: #FF4A4A;">De Cabeza</h5>
                     <h5 style="margin-bottom: 0px;">Contra los piojos!</h5>
+                     
                     <ul id="lista2" class="check" style="padding-top: 20px;">
                       <li>Dejar actuar por 10 minutos</li>
                       <li>No es tóxico</li>
                       <li>No contiene pesticidas</li>
                       <li>No tiñe</li>
                       <li>Previene reinfestación</li>
+                      <!-- <li style="list-style-type: none;">
+                        <img  width="80" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/logoEurope.jpg" >
+                        <img width="200" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/logoRoyal.png">
+                      </li> -->
                     </ul>
+                   
                   </div>
 
                                          
@@ -248,7 +258,7 @@
                                 <a href="#fourth">Beneficios</a>
                             </li>
                             <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                                <a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a>
+                                <a href="mailto:jsamur@pharmainvesti.cl">Contacto</a>
                             </li>
 
                         </ul>
@@ -288,7 +298,7 @@
                           <a href="#fourth">Beneficios</a>
                       </li>
                       <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                          <a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a>
+                          <a href="mailto:jsamur@pharmainvesti.cl">Contacto</a>
                       </li>
                 </ul> 
             </div>
